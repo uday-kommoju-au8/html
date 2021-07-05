@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AineAI</title>
+    <link href="./index.css">   
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<style>
+    body{
+        background-color: #F4F5F7;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main{
+        display:flex;
+   
+    }
+    .left{
+        background-color: #F4F5F7;
+        padding-top: 10px;
+        width:120px;
+        height:640px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+        flex-direction: column;
+        
+    }
+
+    .left > div {
+
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+
+}
+
+.right{
+    width: 500px;
+    height:640px;
+    text-align: center;
+
+}
+/* .right > div {
+  background-color: lightgrey;
+  width: 100px;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 0px;
+} */
+
+.upload{
+    padding: 80px;
+    margin-top: 60px;
+    margin-left: 80px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 25px ;
+    color: Black;
+    position: absolute;
+
+}
+
+.input{
+    border-radius: 5px;
+    margin-top:40px;
+    margin-left: 80px;
+    width:700px;
+    height:30px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 25px ;
+    color: Black;
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+.lesson{
+    width: 100px;
+    margin: 10px;
+    border-left: blue 2px solid;
+    background-color: #d2e2ef;
+    font-size: 15px;
+}
+
+.video{
+    padding-top: 30px;
+    color: #555555;
+    font-size: 20px;
+}
+
+#arrow{
+    padding-left: 20px;
+    color:#555555;
+    padding-top: 30px;
+    
+  
+}
+.vid{
+display:flex;
+}
+
+</style>
+
+<body>
+    
+    <div class="main">
+        <div class="left">
+            <div class="div">
+                <i class="material-icons" >podcasts</i>
+               
+            </div>
+            <div class ="div">
+                <i class="material-icons">face</i>
+                Student
+
+            </div>
+            <div class ="lesson">
+                <i class="material-icons">menu_book</i>
+                LessonPlan
+            </div>
+            <div class="div">
+                <i class="fa fa-cog"></i>
+                Settings
+            </div>
+
+        </div>
+         <div class="right">
+             <div class="vid">
+                 <span>
+                     <i class="material-icons" id="arrow">arrow_left</i>
+                 </span>
+                <div class= "video">
+                    videos
+                 </div>
+             </div>
+            
+             <div class="input">
+                 Insert URL here
+             </div><br><br>
+             or <br>
+             <div class="upload">
+                    <b>upload</b>
+             </div>
+         </div>
+</body>
+</html>
